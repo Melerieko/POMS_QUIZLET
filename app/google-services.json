@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "915226154249",
+    "project_id": "quizlet-5cff5",
+    "storage_bucket": "quizlet-5cff5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915226154249:android:3722082ded270fdc0cafd8",
+        "android_client_info": {
+          "package_name": "com.example.poms_quizlet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "915226154249-9rnpjv7f6e5s9226vnb5vud6adouo6au.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDX5X9HzVCUxdtPv5hF0BjlNv4w-omUpRg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "915226154249-9rnpjv7f6e5s9226vnb5vud6adouo6au.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Викторина</string>
+    <string name="start">Начать игру</string>
+
+    <string name="level_selection_description">Выберите категорию:</string>
+
+    <string name="level1">Даты и события</string>
+    <string name="level2">Техника</string>
+    <string name="level3">Цитаты</string>
+    <string name="level4">Планы операций</string>
+
+    <string name="back">Вернуться назад</string>
+
+    <string name="question">Вопрос</string>
+    <string name="answer">Ответ</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+</resources>

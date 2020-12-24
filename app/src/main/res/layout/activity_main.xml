@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_question"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_above="@+id/btn_one"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="67dp"
+        android:layout_marginBottom="9dp"
+        android:gravity="center_horizontal"
+        android:paddingTop="20sp"
+        android:text="Викторина\n\nГалопом по истории Второй Мировой Войны"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/playerNameField"
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="318dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="80dp"
+        android:ems="10"
+        android:hint="Введите ваше имя"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnGoToLevelSelection"
+        android:layout_width="247dp"
+        android:layout_height="73dp"
+        android:layout_below="@+id/playerNameField"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="82dp"
+        android:layout_marginLeft="82dp"
+        android:layout_marginTop="26dp"
+        android:text="@string/start" />
+
+
+</RelativeLayout>

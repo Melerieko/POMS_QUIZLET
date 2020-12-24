@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/container1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="24dp"
+            android:layout_marginBottom="40dp"
+            android:text="@string/level_selection_description"
+            android:gravity="center_horizontal" />
+
+        <LinearLayout
+            android:id="@+id/container2"
+            android:layout_width="299dp"
+            android:layout_height="318dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <Button
+                android:id="@+id/button_level1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/level1" />
+
+            <Button
+                android:id="@+id/button_level2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/level2" />
+
+            <Button
+                android:id="@+id/button_level3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/level3" />
+
+            <Button
+                android:id="@+id/button_level4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/level4" />
+
+            <Button
+                android:id="@+id/buttonBack"
+                android:layout_width="278dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/back"
+                android:textAllCaps="false"
+                android:textSize="22sp"
+                app:backgroundTint="#C83D3D" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

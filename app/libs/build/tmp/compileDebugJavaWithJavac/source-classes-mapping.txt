@@ -1,0 +1,39 @@
+com/example/poms_quizlet/MainActivity.java
+ com.example.poms_quizlet.MainActivity
+com/example/poms_quizlet/config/Level3_Config.java
+ com.example.poms_quizlet.config.Level3_Config
+com/example/poms_quizlet/BuildConfig.java
+ com.example.poms_quizlet.BuildConfig
+com/example/poms_quizlet/config/Level1_Config.java
+ com.example.poms_quizlet.config.Level1_Config
+com/example/poms_quizlet/LevelSelectionActivity.java
+ com.example.poms_quizlet.LevelSelectionActivity
+ com.example.poms_quizlet.LevelSelectionActivity$1
+ com.example.poms_quizlet.LevelSelectionActivity$2
+ com.example.poms_quizlet.LevelSelectionActivity$3
+ com.example.poms_quizlet.LevelSelectionActivity$4
+ com.example.poms_quizlet.LevelSelectionActivity$5
+com/example/poms_quizlet/DialogFragments/LevelFinish.java
+ com.example.poms_quizlet.DialogFragments.LevelFinish
+ com.example.poms_quizlet.DialogFragments.LevelFinish$1
+com/example/poms_quizlet/config/Level2_Config.java
+ com.example.poms_quizlet.config.Level2_Config
+com/example/poms_quizlet/levels/Level3.java
+ com.example.poms_quizlet.levels.Level3
+com/example/poms_quizlet/levels/Level2.java
+ com.example.poms_quizlet.levels.Level2
+com/example/poms_quizlet/DialogFragments/Level2DialogFragment.java
+ com.example.poms_quizlet.DialogFragments.Level2DialogFragment
+ com.example.poms_quizlet.DialogFragments.Level2DialogFragment$1
+ com.example.poms_quizlet.DialogFragments.Level2DialogFragment$2
+com/example/poms_quizlet/DialogFragments/Level3DialogFragment.java
+ com.example.poms_quizlet.DialogFragments.Level3DialogFragment
+ com.example.poms_quizlet.DialogFragments.Level3DialogFragment$1
+ com.example.poms_quizlet.DialogFragments.Level3DialogFragment$2
+com/example/poms_quizlet/levels/Level1.java
+ com.example.poms_quizlet.levels.Level1
+ com.example.poms_quizlet.levels.Level1$1
+com/example/poms_quizlet/DialogFragments/Level1DialogFragment.java
+ com.example.poms_quizlet.DialogFragments.Level1DialogFragment
+ com.example.poms_quizlet.DialogFragments.Level1DialogFragment$1
+ com.example.poms_quizlet.DialogFragments.Level1DialogFragment$2
